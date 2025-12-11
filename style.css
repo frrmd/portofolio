@@ -1,7 +1,7 @@
 /* CSS Variables untuk Mudah Kustomisasi */
 :root {
     --primary-color: #1e3a8a; /* Navy blue */
-    --accent-color: #10b981; /* Emerald green */
+    --accent-color: #2110b9; /* Emerald green */
     --bg-light: #f8fafc; /* Light gray */
     --bg-white: #ffffff;
     --text-dark: #1f2937;
@@ -65,7 +65,7 @@ a {
 .btn:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-hover);
-    background: linear-gradient(135deg, #3b82f6, var(--primary-color));
+    background: linear-gradient(135deg, #f63bd4, var(--primary-color));
 }
 
 /* Header dan Navigasi */
@@ -377,13 +377,13 @@ a {
 }
 
 .skill-tag {
-    background: rgba(0, 12, 240, 0.1);
+    background: rgba(189, 225, 238, 0);
     color: var(--accent-color);
     padding: 8px 16px;
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 500;
-    border: 1px solid rgba(2, 184, 250, 0.2);
+    border: 1px solid rgba(2, 196, 250, 0.2);
     transition: var(--transition);
 }
 
